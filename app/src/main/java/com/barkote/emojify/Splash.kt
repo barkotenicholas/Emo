@@ -1,5 +1,6 @@
 package com.barkote.emojify
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.barkote.emojify.databinding.ActivitySplashBinding
@@ -15,6 +16,9 @@ class Splash : AppCompatActivity() {
         setContentView(binding.root)
 
 
+        binding.launchBtn.setOnClickListener{
+            startActivity(Intent(this,MainActivity::class.java))
+        }
 
 
     }

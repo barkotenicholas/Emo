@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Emojify</string>
+    <string name="launch_main_activity">Launch Main Activity</string>
 </resources>
